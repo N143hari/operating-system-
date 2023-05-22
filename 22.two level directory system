@@ -1,0 +1,57 @@
+if(strcmp(f, dir[i].fname[k])==0)
+
+{
+
+printf("File %s is found ",f);
+
+goto jmp1;
+
+}
+
+}
+
+printf("File %s not found",f);
+
+goto jmp1;
+
+}
+
+}
+
+printf("Directory %s not found",d);
+
+jmp1: break;
+
+case 5: if(dcnt==0)
+
+printf("\nNo Directory's ");
+
+else
+
+{
+
+printf("\nDirectory\tFiles");
+
+for(i=0;i<dcnt;i++)
+
+{
+
+printf("\n%s\t\t",dir[i].dname);
+
+for(k=0;k<dir[i].fcnt;k++)
+
+printf("\t%s",dir[i].fname[k]);
+
+}
+
+}
+
+break;
+
+default:exit(0);
+
+}
+
+}
+
+}
