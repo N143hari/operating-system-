@@ -1,0 +1,71 @@
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#define TOTAL DISH BLOCKS 32
+
+#define TOTAL DISK INDOES 8
+
+16
+
+17
+
+20
+
+int block@tatus/TOTAL_DISK_BLOCKS): // fren - 0
+
+int blockstart
+
+struct file table (
+
+char fileName [20];
+
+int startBlocks
+
+int filesize:
+
+int allotstatus
+
+struct file table fileTable(TOTAL
+
+DISK BLOCKS TOTAL_DISK_INODES)?
+
+int AllocateBlocks (int size) ( int i=0, count 0, inhist 0, nextBlock 0;
+
+int allocstartBlock= TOTAL_DISK_INODES: int allocindBlock- TOTAL DISK BLOCK - 17
+
+// check whether sufficient free blocks are available
+
+for (i=0; i < (TOTAL_DISK_BLOCKS TOTAL_DISK_INODES); 1+4) if (blockStatus[i] == 0)
+
+count++;
+
+if (count < size) return 1; // not enough free blocks
+
+count=0
+
+while (count < size) |
+
+nextBlock (rand() (allocEndBlock allocdtartBlock+11) alloc@tartBlocks
+
+for (i nextBlock; i < (nextBlock + size); i++)
+
+if (block@tatus[i] == 0)
+
+count count+1
+
+else ( count 02:
+
+break;
+
+21
+
+22
+
+23
+
+tart nextBlock)
+
+count Size)
+
+return 1; // not successful
